@@ -12,10 +12,10 @@ public class homeWork1v1 {
             boolean bul = true;
             char ch = '3';
             short sh = 2;
-            long l = 3;
-            double d = 3.0f;
-            float fl = 23423;
-            String s = "df";
+            long l = 365426;
+            double d = 31235.5;
+            float fl = 2.5f;
+            String s = "String";
         }
 
         //      3. Написать метод вычисляющий выражение a * (b + (c / d)) и возвращающий результат,
@@ -30,7 +30,7 @@ public class homeWork1v1 {
         // если да – вернуть true, в противном случае – false.
 
         public static boolean task10and20(int x1, int x2){
-            return 10 <= x1 + x2 && x1 + x2 <= 20;
+            return x1 + x2 >= 10 && x1 + x2 <= 20;
         }
 
         //      5. Написать метод, которому в качестве параметра передается целое число,
